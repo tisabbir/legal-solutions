@@ -4,13 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <!-- Google fonts EB Garamond -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- Daisy UI and tailwind setup -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
@@ -23,6 +20,7 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                'this-black' : '#414040',
               }
             }
           }
@@ -31,8 +29,8 @@
 
       <!-- Custom Styles -->
     <style>
-      .font-manrope {
-        font-family: "Manrope", sans-serif;
+      .font-eb {
+        font-family: 'EB Garamond', serif;
       }
     </style>
     
@@ -40,6 +38,14 @@
   </head>
   <body class="font-manrope">
     <header class="container mx-auto">
+      <nav>
+        <div>
+          <img src="images/logo.png" alt="">
+          <h1 class="font-extrabold text-4xl text-this-black ">Justice</h1>
+        </div>
+        <div></div>
+        <div></div>
+      </nav>
 
     </header>
     <main class="container mx-auto">
