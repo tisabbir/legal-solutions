@@ -21,6 +21,7 @@
               colors: {
                 clifford: '#da373d',
                 'this-black' : '#414040',
+                'this-chocolate' : '#B68C5A'
               }
             }
           }
@@ -38,13 +39,38 @@
   </head>
   <body class="font-manrope">
     <header class="container mx-auto">
-      <nav>
-        <div>
-          <img src="images/logo.png" alt="">
-          <h1 class="font-extrabold text-4xl text-this-black ">Justice</h1>
+      <nav class="mt-12 flex flex-col lg:flex-row justify-between items-center">
+        <div class="flex gap-3">
+          <img src="images/logo2.png" alt="">
         </div>
-        <div></div>
-        <div></div>
+
+        <div class="flex flex-row lg:flex-row gap-7">
+          <h3>Home</h3>
+          <h3 class="flex items-center">Services
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+          </h3>
+          <h3 class="flex items-center">Cases
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+          </h3>
+          <h3 class="flex items-center">Blogs
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+          </h3>
+          <h3 class="flex items-center">Contact Us
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+          </h3>
+        </div>
+
+        <div>
+          <button class="btn bg-this-chocolate text-white">Free Consultation</button>
+        </div>
       </nav>
 
     </header>
